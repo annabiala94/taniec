@@ -23,5 +23,15 @@ class DefaultController extends Controller
     {
         return $this->render('default/gdzie-sie-z-checia.html.twig');
     }
+    /*
+     * B
+     */
+    /**
+ * @Route("/salsa.html", name="salsa")
+ */
+public function salsaAction()
+{
+    return $this->render('default/salsa.html.twig');
+}
 
 }
