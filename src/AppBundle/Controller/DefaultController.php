@@ -15,5 +15,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/index.html.twig');
     }
+    
+     /**
+     * @Route("/walc-angielski.html", name="walc-angielski")
+     */
+     public function  walcangielskiAction()
+    {
+         return $this->render('default/walc-angielski.html.twig');
+    }
+    
 
 }
