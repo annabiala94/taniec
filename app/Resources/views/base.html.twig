@@ -13,8 +13,20 @@
 
     </head>
     <body>
-
-    {% block body %}{% endblock %}
+        
+        <h1><u>Spis treści</u></h1>  
+      
+    <nav>
+     <ul type="square">
+         
+     <li>
+         <a href="{{ path('walc-angielski') }}"><b>Walc angielski</b></a>
+     </li>
+    
+     </ul>
+     
+    </nav>
+    {% block body %} {% endblock %}
 
     <footer>Version: 0.0.0</footer>
 
