@@ -64,5 +64,11 @@ class DefaultController extends Controller
          return $this->render('default/rumba.html.twig');
     }
 
-
+/**
+ * @Route("/taniec-brzucha.html", name="taniec-brzucha")
+ */
+public function  taniecbrzuchaAction()
+{
+    return $this->render('default/taniec-brzucha.html.twig');
+}
 }
