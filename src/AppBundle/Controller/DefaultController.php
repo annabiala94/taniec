@@ -32,11 +32,21 @@ class DefaultController extends Controller
          return $this->render('default/tango.html.twig');
     }
     
-/**
- * @Route("/cha-cha.html", name="cha-cha")
- */
-public function chachaAction()
-{
-    return $this->render('default/cha-cha.html.twig');
-}
+    /**
+     * @Route("/cha-cha.html", name="cha-cha")
+     */
+     public function chachaAction()
+     {
+         return $this->render('default/cha-cha.html.twig');
+     }
+
+     /**
+     * @Route("/walc-wiedenski.html", name="walc-wiedenski")
+     */
+     public function  walcwiedenskiAction()
+    {
+         return $this->render('default/walc-wiedenski.html.twig');
+    }
+
+
 }
