@@ -63,6 +63,16 @@ class DefaultController extends Controller
     {
          return $this->render('default/rumba.html.twig');
     }
+    /*
+     * B
+     */
+    /**
+ * @Route("/salsa.html", name="salsa")
+ */
+public function salsaAction()
+{
+    return $this->render('default/salsa.html.twig');
+}
 
 /**
  * @Route("/taniec-brzucha.html", name="taniec-brzucha")
