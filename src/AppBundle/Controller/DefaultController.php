@@ -24,5 +24,13 @@ class DefaultController extends Controller
          return $this->render('default/walc-angielski.html.twig');
     }
     
+    /**
+     * @Route("/tango.html", name="tango")
+     */
+     public function  tangoAction()
+    {
+         return $this->render('default/tango.html.twig');
+    }
+    
 
 }
