@@ -55,6 +55,14 @@ class DefaultController extends Controller
     {
          return $this->render('default/paso-doble.html.twig');
     }
+    
+    /**
+     * @Route("/rumba.html", name="rumba")
+     */
+     public function  rumbaAction()
+    {
+         return $this->render('default/rumba.html.twig');
+    }
 
 
 }
