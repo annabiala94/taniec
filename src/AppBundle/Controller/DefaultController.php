@@ -47,6 +47,14 @@ class DefaultController extends Controller
     {
          return $this->render('default/walc-wiedenski.html.twig');
     }
+    
+    /**
+     * @Route("/paso-doble.html", name="paso-doble")
+     */
+     public function  pasodobleAction()
+    {
+         return $this->render('default/paso-doble.html.twig');
+    }
 
 
 }
