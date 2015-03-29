@@ -72,6 +72,7 @@ public function  taniecbrzuchaAction()
     return $this->render('default/taniec-brzucha.html.twig');
 }
 
+
     /**
      * @Route("/quickstep.html", name="quickstep")
      */
@@ -79,4 +80,13 @@ public function  taniecbrzuchaAction()
     {
          return $this->render('default/quickstep.html.twig');
     }
+
+/**
+ * @Route("/habanera.html", name="habanera")
+ */
+public function  habaneraAction()
+{
+    return $this->render('default/habanera.html.twig');
+}
+
 }
