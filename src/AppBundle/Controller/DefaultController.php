@@ -71,4 +71,12 @@ public function  taniecbrzuchaAction()
 {
     return $this->render('default/taniec-brzucha.html.twig');
 }
+
+    /**
+     * @Route("/quickstep.html", name="quickstep")
+     */
+     public function  quickstepAction()
+    {
+         return $this->render('default/quickstep.html.twig');
+    }
 }
