@@ -79,4 +79,18 @@ public function  taniecbrzuchaAction()
     {
          return $this->render('default/quickstep.html.twig');
     }
+    /**
+     * @Route("/flamenco.html", name="flamenco")
+     */
+     public function  flamencoAction()
+    {
+         return $this->render('default/flamenco.html.twig');
+    }
+    /**
+     * @Route("/habanera.html", name="habanera")
+     */
+     public function  habaneraAction()
+    {
+         return $this->render('default/habanera.html.twig');
+    }
 }
