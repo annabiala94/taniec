@@ -25,6 +25,14 @@ class DefaultController extends Controller
     }
     
     /**
+     * @Route("/tap.html", name="tap")
+     */
+     public function  tapAction()
+    {
+         return $this->render('default/tap.html.twig');
+    }
+    
+    /**
      * @Route("/tango.html", name="tango")
      */
      public function  tangoAction()
