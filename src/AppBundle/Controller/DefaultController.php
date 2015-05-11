@@ -33,6 +33,14 @@ class DefaultController extends Controller
     }
     
     /**
+     * @Route("/ballet.html", name="ballet")
+     */
+     public function  balletAction()
+    {
+         return $this->render('default/ballet.html.twig');
+    }
+    
+    /**
      * @Route("/cha-cha.html", name="cha-cha")
      */
      public function chachaAction()
