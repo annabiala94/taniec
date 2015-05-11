@@ -25,6 +25,14 @@ class DefaultController extends Controller
     }
     
     /**
+     * @Route("/swing.html", name="swing")
+     */
+     public function  swingAction()
+    {
+         return $this->render('default/swing.html.twig');
+    }
+    
+    /**
      * @Route("/tap.html", name="tap")
      */
      public function  tapAction()
